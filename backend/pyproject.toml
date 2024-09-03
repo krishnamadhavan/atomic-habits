@@ -11,7 +11,8 @@ python = "^3.11.4"
 fastapi = "^0.112.2"
 uvicorn = {extras = ["standard"], version = "^0.30.6"}
 pydantic = "^2.8.2"
-
+pydantic-settings = "^2.2.1"
+sentry-sdk = {extras = ["fastapi"], version = "^1.40.6"}
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.6.3"
