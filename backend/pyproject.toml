@@ -19,6 +19,8 @@ black = "^24.8.0"
 mypy = "^1.11.2"
 isort = "^5.13.2"
 pre-commit = "^3.6.2"
+coverage = "^7.4.3"
+pytest = "^7.4.3"
 
 [build-system]
 requires = ["poetry>=0.12"]
