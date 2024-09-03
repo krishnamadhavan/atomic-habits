@@ -1,0 +1,23 @@
+services:
+  db:
+    image: postgres:12
+    restart: always
+    volumes:
+      - app-db-data:/var/lib/postgresql/data/pgdata
+    env_file:
+      - .env
+    environment:
+      - PGDATA=/var/lib/postgresql/data/pgdata
+
+  adminer:
+    image: adminer
+    restart: always
+    depends_on:
+      - db
+    environment:
+      - ADMINER_DESIGN=pepa-linha-dark
+    ports:
+      - 8080:8080
+
+volumes:
+  app-db-data:

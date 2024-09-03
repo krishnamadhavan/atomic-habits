@@ -1,5 +1,5 @@
 # atomic-habits
-An intuitive habit tracking app designed to help you build and maintain positive routines through customizable goals 
+An intuitive habit tracking app designed to help you build and maintain positive routines through customizable goals
 and progress visualization.
 
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
